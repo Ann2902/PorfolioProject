@@ -1,4 +1,4 @@
-import defaultImage from "../resources/images/defaultImage.jpg";
+
 import {
   CodeRounded,
   DraftsRounded,
@@ -21,7 +21,7 @@ export const userProfileDefaultData = {
   EmailID: "shreann@gmail.com",
   PhoneNo: "987665432",
   Description: "Sairam",
-  Photo: defaultImage,
+  
 };
 
 export const IconTitleMap = {

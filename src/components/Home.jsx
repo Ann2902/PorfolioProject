@@ -21,10 +21,10 @@ function Home() {
       <Avatar
         src={dp}
         sx={{
-          width: "400px",
-          height: "400px",
+          width: "300px",
+          height: "300px",
           position: "absolute",
-          right: "250px",
+          right: "130px",
           top: "150px",
           mt: "50px",
           mb: "50px",
