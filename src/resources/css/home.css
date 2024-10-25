@@ -1,0 +1,41 @@
+.resume_button {
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 200px; 
+    height: 60px; 
+    background-color: #000000; 
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+    border-radius: 20px; 
+    margin: 10px; 
+    font-size: 5.5em; 
+    transition: background-color 0.3s, transform 0.3s;
+    gap: 10px; 
+}
+
+.resume_button:hover {
+    background-color: #333333; 
+    transform: scale(1.05); 
+}
+
+.button_link {
+ 
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 60px; 
+    height: 60px; 
+    background-color: #01090d; 
+    color: white; 
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 1.5em;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.button_link:hover {
+    background-color: grey; 
+    transform: scale(1.05);
+}

@@ -1,0 +1,47 @@
+.contact-container {
+    background-color: white;
+    color: white; 
+    padding: 20px; 
+    border-radius: 0px; 
+  }
+  .description {
+    color: black;
+    font-size: 24px;
+  }
+  
+  .name {
+    color: black;
+    font-size: 24px;
+  }
+  
+  .address {
+    color: black;
+  }
+  
+  .email {
+    color: black;
+  }
+  
+  .phone {
+    color: black;
+    font-style: italic;
+  }
+
+
+.submit_button {
+    background-color: #010101; 
+    color: rgb(243, 243, 243); 
+    height: 100px; 
+    width: 100px; 
+    border: none; 
+    border-radius: 15px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .submit_button:hover {
+    background-color: #565759; 
+    transform: scale(1.05); 
+  }
+  
