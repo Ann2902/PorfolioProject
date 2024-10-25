@@ -120,7 +120,7 @@ npm run lint
 Clone the repository:
 
 ```bash
-git
+git clone https://github.com/Ann2902/PorfolioProject
 ```
 
 Navigate to the project directory:
