@@ -31,8 +31,8 @@
 .submit_button {
     background-color: #010101; 
     color: rgb(243, 243, 243); 
-    height: 100px; 
-    width: 100px; 
+    height: 50px; 
+    width: 200px; 
     border: none; 
     border-radius: 15px; 
     font-size: 16px; 

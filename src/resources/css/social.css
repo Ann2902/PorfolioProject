@@ -1,36 +1,72 @@
+/* Center-align and adjust icon sizing */
 .button_link {
-    display: inline-flex;
-    align-items: center; 
-    justify-content: center; 
-    width: 60px; 
-    height: 60px; 
-    background-color: #01090d; 
-    color: white; 
-    text-decoration: none;
-    border-radius: 50%; 
-    margin: 10px; 
-    font-size: 1.5em; 
-    transition: background-color 0.3s, transform 0.3s; 
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center; 
+  width: 60px; 
+  height: 60px; 
+  background-color: #01090d; 
+  color: white; 
+  text-decoration: none;
+  border-radius: 50%; 
+  margin: 10px; 
+  font-size: 1.5em; 
+  transition: background-color 0.3s, transform 0.3s; 
 }
 
 .button_link:hover {
-    background-color: grey; 
-    transform: scale(1.05);
+  background-color: grey; 
+  transform: scale(1.05);
 }
+
+/* Adjust button styling */
 .submit_button {
-    background-color: #010101; 
-    color: white; 
-    height: 50px; 
-    width: 5px; 
-    border: none; 
-    border-radius: 15px; 
-    font-size: 16px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease, transform 0.2s ease; 
+  background-color: #010101; 
+  color: white; 
+  padding: 15px 30px;
+  border: none; 
+  border-radius: 15px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  width: 100%;
+  max-width: 200px;
+}
+
+.submit_button:hover {
+  background-color: #565759; 
+  transform: scale(1.05); 
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .button_link {
+      width: 45px;
+      height: 45px;
+      font-size: 1.2em;
   }
-  
-  .submit_button:hover {
-    background-color: #565759; 
-    transform: scale(1.05); 
+  .submit_button {
+      width: 100%;
+      font-size: 14px;
   }
-  
+}
+
+@media (max-width: 480px) {
+  /* Stack icons vertically for narrow screens */
+  .stack_icons {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .button_link {
+      width: 40px;
+      height: 40px;
+      font-size: 1em;
+      margin: 5px;
+  }
+
+  .submit_button {
+      font-size: 12px;
+      padding: 10px 20px;
+  }
+}

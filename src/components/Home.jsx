@@ -46,7 +46,7 @@ function Home() {
         
        <Box sx={{ mt: 25 }}></Box>
       <Stack direction="column" justifyContent="left" spacing={3} sx={{ mb: 2 }}>
-      <a href="https://www.linkedin.com/in/anuj-dewan-82562525b/" className="resume_button" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com" className="resume_button" target="_blank" rel="noopener noreferrer">
       <Typography variant="body1" sx={{ color: 'white' }}>
             Resume
           </Typography>
