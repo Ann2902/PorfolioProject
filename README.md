@@ -28,26 +28,33 @@ root/
 ├── src/
 │   ├── components/
 │   │   ├── Academics.jsx
+│   │   ├── Blog.jsx
+│   │   ├── BreadCrumbComponent.jsx
+│   │   ├── ContactUs.jsx
 │   │   ├── Dashbord.jsx
 │   │   ├── Home.jsx
-│   │   ├── PageNotFound.jsx
 │   │   ├── Profile.jsx
-│   │   └── Projects.jsx
+│   │   ├── Project.jsx
+│   │   ├── Resume.jsx
+│   │   └── SocialProfiles.jsx
 │   ├── redux/
-│   │   ├── slices/
-│   │   │   └── navSlice.js
+│   │   ├── slices
+│   │   │   ├── navSlice.jsx
+│   │   │   └── systemSlice.js
 │   │   └── store.js
 │   ├── resources/
 │   │   ├── css/
-│   │   │   ├── academics.css
-│   │   │   ├── dashbord.css
+│   │   │   ├── breadcrumb.css
+│   │   │   ├── contactus.css
+│   │   │   ├── dashboard.css
 │   │   │   ├── home.css
-│   │   │   ├── profile.css
-│   │   │   ├── projects.css
-│   │   │   └── shared.css
+│   │   │   └── social.css
 │   │   └── images/
 │   ├── Utils/
-│   │   └── Constants.js
+│   │   ├── academics.js
+│   │   ├── blog.js
+│   │   ├── Constants.js
+│   │   └── projectDetails.js
 │   ├── App.css
 │   ├── App.js
 │   ├── index.css
